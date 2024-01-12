@@ -1,13 +1,10 @@
-<h1 align="center">
-<font style="font-size:40px;">Chat Safeguard</font>
-<br><font style="font-size:15px;">A System for Monitoring and Improving Online Language</font>
-</h1>
+<h1 align="center">Chat Safeguard</h1>
 
-A System for Monitoring and Improving Online Language
+<p align="center">A System for Monitoring and Improving Online Language</p>
 
-<h1 align="center">
+<p align="center">
 <img src=".streamlit/image_1.png" alt="drawing" width="400"/>
-</h1>
+</p>
 
 Thank you for your interest in our project. Please be aware that this is only a Proof of Concept system and may contain bugs or unfinished features.
 
