@@ -1,6 +1,6 @@
 <h1 align="center">
 <font style="font-size:40px;">Chat Safeguard</font>
-<br><font style="font-size:25px;">A System for Monitoring and Improving Online Language</font>
+<br><font style="font-size:15px;">A System for Monitoring and Improving Online Language</font>
 </h1>
 
 <h1 align="center">
