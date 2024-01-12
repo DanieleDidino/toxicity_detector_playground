@@ -3,6 +3,8 @@
 <br><font style="font-size:15px;">A System for Monitoring and Improving Online Language</font>
 </h1>
 
+A System for Monitoring and Improving Online Language
+
 <h1 align="center">
 <img src=".streamlit/image_1.png" alt="drawing" width="400"/>
 </h1>
