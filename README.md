@@ -14,7 +14,7 @@ This project aims to develop tools that can detect toxic language in chat conver
 
 ## Streamlit
 
-You can interact with the Streamlit app [here]().
+You can interact with the Streamlit app [here](https://toxicitydetectorplayground-lvw8o7nmowk5hrmssbvm5y.streamlit.app/).
 
 You will need an <b>OpenAI API key</b> (you can create one [here](https://platform.openai.com/account/api-keys)).
 
@@ -39,7 +39,7 @@ The response includes:
 1. Clone the repo:
 
     ```bash
-    git clone https://github.com/...
+    git clone https://github.com/DanieleDidino/toxicity_detector_playground.git
     ```
 
 2. Install dependencies:
