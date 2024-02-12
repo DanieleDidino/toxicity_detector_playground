@@ -1,5 +1,6 @@
 from openai import OpenAI
 import streamlit as st
+from utils import create_prompt_template
 
 ####################################################################################
 # Config
@@ -47,15 +48,8 @@ llm_available = {
 TEMPERATURE = 0
 
 # System content for classifying toxic language
-system_content_clf = f"""
-You are an expert non-violent comunication.
-Your task is to identify toxic language.
-Always answer using three labels:
- - 'neutral': use this category for neutral non-toxic language.
- - 'toxic': use this category for toxic or violent language.
- - 'unclear': use this category is you don't know what category select.
-You must provide me with a label that classify the sentence provided below.
-"""
+system_content_clf = create_prompt_template()
+
 # System content for converting toxic language into neutral language
 system_content_edit = f"""
 You are an expert non-violent comunication.
@@ -138,7 +132,7 @@ if prompt := st.chat_input("How may I help you?"):
         prompt_tokens = completion.usage.prompt_tokens
         total_tokens = completion.usage.total_tokens
         # Edit text
-        if st.session_state.edit_text and selected_label=="toxic":
+        if st.session_state.edit_text and selected_label!="unclear" and selected_label!="neutral":
             completion = st.session_state.client_openai.chat.completions.create(
                 model=LLM_MODEL,
                 messages=[
@@ -160,12 +154,8 @@ if prompt := st.chat_input("How may I help you?"):
             "prompt_tokens":prompt_tokens,
             "total_tokens":total_tokens
         }
-        if st.session_state.edit_text and selected_label=="toxic":
+        if st.session_state.edit_text:
             response_for_user = f"This sentence is labeled as <b style='color: red'>{selected_label}</b><br>(token usage: {used_tokens}){edited_text}"
-        elif st.session_state.edit_text and selected_label=="neutral":
-            response_for_user = f"This sentence is labeled as <b style='color: green'>{selected_label}</b><br>(token usage: {used_tokens}){edited_text}"
-        else:
-            response_for_user = f"This sentence is labeled as <b>{selected_label}</b><br>(token usage: {used_tokens}){edited_text}"
 
             
     else:
