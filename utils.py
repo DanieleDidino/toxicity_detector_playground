@@ -1,3 +1,4 @@
+from openai import OpenAI
 import streamlit as st
 
 def test_label(label):
@@ -17,11 +18,12 @@ def test_label(label):
         return False
 
 
-def call_api_client(llm_model, system_prompt, user_text, temperature):
+def call_api_client(api_client, llm_model, system_prompt, user_text, temperature):
     """
     Call the API and get the response.
 
     Args:
+        api_client: Object that manage the call to OpenAI API
         llm_model (string): Name of the OpenAI model
         system_prompt (string): A prompt used to inform the model how to modify the user text.
         user_text: Original text provided by the user.
@@ -32,20 +34,21 @@ def call_api_client(llm_model, system_prompt, user_text, temperature):
         token_usage (tuple): the number of tokens used
     """
 
-    completion = st.session_state.client_openai.chat.completions.create(
+    chat_completion = api_client.chat.completions.create(
         model=llm_model,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_text}
         ],
-        temperature=temperature,
+        temperature=temperature
     )
 
-    response = completion.choices[0].message.content
+    response = chat_completion.choices[0].message.content
 
-    token_usage = count_token_usage(completion)
+    token_usage = count_token_usage(chat_completion)
 
     return response, token_usage
+
 
 def count_token_usage(api_response):
     """
