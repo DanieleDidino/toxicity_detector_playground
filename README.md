@@ -26,9 +26,13 @@ How to use it:
 
 The response includes:
 1. A label:
-   - <b>neutral</b>: neutral non-toxic language.
-   - <b>toxic</b>: toxic or violent language.
-   - <b>unclear</b>: the model cannot classify the sentence.
+   - <b>criticism</b>: This style involves ad hominem attacks on a partner's character rather than addressing specific issues distinguishing it from a complaint, which targets a specific behavior.
+   - <b>contempt</b>: An extreme form of criticism, characterized by treating a partner with disrespect, sarcasm, and mockery, making them feel despised and worthless.
+   - <b>defensiveness</b>: A response to criticism where one attempts to excuse their behavior and avoid taking responsibility, often resulting in blame-shifting.
+   - <b>stonewalling</b>: It occurs when one partner withdraws from the interaction, shutting down communication in response to contempt.
+   - <b>neutral</b>: This category is used for text that does not exhibit negative communication patterns nor explicitly fits into the categories of criticism, contempt, defensiveness, or stonewalling. It includes statements or behaviors that are constructive, positive, or at least not harmful or negative in the context of a relationship. Use this category for communication that is understanding, supportive, factual without emotional charge, or otherwise not indicative of conflict. 
+   - <b>unclear</b>: Text does not clearly fit into any of the above categories or if it is ambiguous.
+
 2. The token usage.
 3. A suggested correction (if the sentence is classified as toxic and the "<i>Convert the sentence to neutral language?</i>" toggle is on).
 
