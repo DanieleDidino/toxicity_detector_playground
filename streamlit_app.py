@@ -1,26 +1,25 @@
 from openai import OpenAI
 import streamlit as st
-from prompts import create_prompt_clf, create_prompt_edit_text, create_prompt_split_clf
-from utils import test_label, call_api_client
+from utils import get_responses_from_llm
 
 ####################################################################################
 # Config
 
 # About text for the menu item
 about = """
-This app is a playground to experiment with LLM to detect toxic/violent language and convert it to neutral text
+This app is a playground to experiment with LLM to detect disfunctional language and convert it to functional text.
 """
 
 # streamlit config
 st.set_page_config(
-    page_title="ToxLang Playground",
+    page_title="D-AI-logue",
     layout="wide",
     menu_items={
         "About": about
     }
 )
 
-st.header("Enter a sentence to evaluate")
+st.header("Enter text to evaluate")
 
 # Condense the layout
 padding = 0
@@ -48,38 +47,54 @@ llm_available = {
 # LLM temperature
 TEMPERATURE = 0
 
-# System content for classifying toxic language
-system_content_clf = create_prompt_clf()
+text_area_hight =500
+
+# Initialize parameters
+default_values = {
+   "messages": [],
+   "avatars": [],
+   "text_user1": "",
+   "text_user2": "",
+   "clf_user1": "",
+   "clf_user2": "",
+   "edited_text_user1": "",
+   "edited_text_user2": "",
+   "total_token_user1": 0,
+   "total_token_user2": 0,
+   "use_original_text_user1": False,
+   "use_original_text_user2": False,
+   "use_edited_text_user1": False,
+   "use_edited_text_user2":False,
+}
+
+# Set the default value in session_state if not already set
+for key, value in default_values.items():
+    if key not in st.session_state:
+        st.session_state[key] = value
 
 ####################################################################################
 # Left column
 
-sidebar = st.sidebar
-
-with sidebar:
+with st.sidebar:
 
     # Custom page title and subtitle
-    st.title("ToxLang")
+    st.title("D-AI-logue")
     st.markdown("<br>", unsafe_allow_html=True)
-    st.subheader("Detect and correct toxic language", divider="orange")
+    st.subheader("", divider="orange") # Improve personal communication
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Get OpenAI ley from user
-    openai_label = "Enter your [OpenAi key](https://platform.openai.com/account/api-keys)"
+    openai_label = ":key: Enter your [OpenAi key](https://platform.openai.com/account/api-keys)"
     OPENAI_KEY = st.text_input(label=openai_label, type="password", help="Enter your OpenAi key")
 
     # Add space between elements of the column
     st.markdown("<br>", unsafe_allow_html=True)
-    
-    # Initialize chat history
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
 
     # Selectbox with the list of LLM
     help_selectbox_llm = "This option is for when we will use open-source LLM"
     selected_llm = st.selectbox("Select a LLM", options=llm_available.keys(), help=help_selectbox_llm)
     if selected_llm and OPENAI_KEY:
-        LLM_MODEL = llm_available[selected_llm]
+        llm_model = llm_available[selected_llm]
         # Initialize LLM
         if "client" not in st.session_state:
             st.session_state.client = OpenAI(api_key=OPENAI_KEY)
@@ -87,99 +102,122 @@ with sidebar:
     # Add space between elements of the column
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Toggle to select whether split the text and classify it    
-    if "split_clf" not in st.session_state:
-        # Initialize split_clf
-        st.session_state.split_clf = False
-    help_toggle_split_clf = "Split the text into chunks and classify them"
-    st.session_state.split_clf = st.toggle("Split and classify?", value=False, help=help_toggle_split_clf)
-
 ####################################################################################
-# Chat
+# Main 
+
+# Set 3 columns for first row (user 1)
+col1_row1, col2_row1, col3_row1 = st.columns(3)
+
+# Set column 1 - row 1 (user 1)
+with col1_row1:
+    st.session_state.text_user1 = st.text_area(label = "User 1:", value=st.session_state.text_user1, help="Text from user 1", height=text_area_hight)
+    button_go_user1, text_token_usage_user1 = st.columns(2)
+    with button_go_user1:
+        go_btn_user1 = st.button("Go...", key="go_user1")
+
+# Set 3 columns for second row (user 2)
+col1_row2, col2_row2, col3_row2 = st.columns(3)
+
+# Set column 1 - row 2 (user 2)
+with col1_row2:
+    st.session_state.text_user2 = st.text_area(label = "User 2:", value=st.session_state.text_user2, help="Text from user 2", height=text_area_hight)
+    button_go_user2, text_token_usage_user2 = st.columns(2)
+    with button_go_user2:
+        go_btn_user2 = st.button("Go...", key="go_user2")
+
+# React to user 1 input
+if go_btn_user1:
+    if OPENAI_KEY:
+        clf_text_user1, edited_text_user1, total_token = get_responses_from_llm(
+            user_text=st.session_state.text_user1,
+            api_client=st.session_state.client,
+            llm_model=llm_model,
+            temperature=TEMPERATURE
+        )
+        st.session_state.clf_user1 = clf_text_user1
+        st.session_state.edited_text_user1 = edited_text_user1
+        st.session_state.total_token_user1 = total_token
+    else:
+        st.session_state.clf_user1 = "Please add your OpenAI key to continue."
+        st.session_state.edited_text_user1 = "Please add your OpenAI key to continue."
+        st.session_state.total_token_user1 = 0
+
+# React to user 2 input
+if go_btn_user2:
+    if OPENAI_KEY:
+        clf_text_user2, edited_text_user2, total_token = get_responses_from_llm(
+            user_text=st.session_state.text_user2,
+            api_client=st.session_state.client,
+            llm_model=llm_model,
+            temperature=TEMPERATURE
+        )
+        st.session_state.clf_user2 = clf_text_user2
+        st.session_state.edited_text_user2 = edited_text_user2
+        st.session_state.total_token_user2 = total_token
+    else:
+        st.session_state.clf_user2 = "Please add your OpenAI key to continue."
+        st.session_state.edited_text_user2 = "Please add your OpenAI key to continue."
+        st.session_state.total_token_user2 = 0
+
+# Set columns 2 and 3 - row 1 (user 1)
+col2_clf_user_1 = col2_row1.text_area(label = "Classification 1", value=st.session_state.clf_user1, height=text_area_hight)
+col3_edt_user_1 = col3_row1.text_area(label = "Suggested text 1", value=st.session_state.edited_text_user1, height=text_area_hight)
+
+# Set columns 2 and 3 - row 2 (user 2)
+col2_clf_user_2 = col2_row2.text_area(label = "Classification 2", value=st.session_state.clf_user2, height=text_area_hight)
+col3_edt_user_2 = col3_row2.text_area(label = "Suggested text 2", value=st.session_state.edited_text_user2, height=text_area_hight)
+
+# Set buttons in column 3 - row 1 (user 1)
+with col3_row1:
+    button_col1, button_col2 = st.columns(2)
+    with button_col1:
+        st.session_state.use_original_text_user1 = st.button("Use original text", key="use_original_usr1")
+    with button_col2:
+        st.session_state.use_edited_text_user1 = st.button("Use modified text", key="use_modified_usr1")
+
+# If "Use original text" or "Use modified text" button pressed, add text and avatar to chat history (user 1)
+if st.session_state.use_edited_text_user1:
+    st.session_state.messages.insert(0, {"role": "assistant", "content": st.session_state.edited_text_user1})
+    st.session_state.avatars.insert(0, "👩‍🦰")
+    # st.session_state.use_edited_text_user1 = False
+elif st.session_state.use_original_text_user1:
+    st.session_state.messages.insert(0, {"role": "assistant", "content": st.session_state.text_user1})
+    st.session_state.avatars.insert(0, "👩‍🦰")
+    # st.session_state.use_original_text_user1 = False
+
+# Add token usage to column 1 - row 1 (user1)
+with text_token_usage_user1:
+    st.write(f"token usage: {st.session_state.total_token_user1}")
+
+# Add token usage to column 1 - row 2 (user2)
+with text_token_usage_user2:
+    st.write(f"token usage: {st.session_state.total_token_user2}")
+
+# Set buttons in column 3 - row 1 (user 1)
+with col3_row2:
+    button_col1, button_col2 = st.columns(2)
+    with button_col1:
+        st.session_state.use_original_text_user2 = st.button("Use original text", key="use_original_usr2")
+    with button_col2:
+        st.session_state.use_edited_text_user2 = st.button("Use modified text", key="use_modified_usr2")
+
+# If "Use original text" or "Use modified text" button pressed, add text and avatar to chat history (user 2)
+if st.session_state.use_edited_text_user2:
+    st.session_state.messages.insert(0, {"role": "assistant", "content": st.session_state.edited_text_user2})
+    st.session_state.avatars.insert(0, "👨‍🦰")
+    # st.session_state.use_edited_text_user2 = False
+elif st.session_state.use_original_text_user2:
+    st.session_state.messages.insert(0, {"role": "assistant", "content": st.session_state.text_user2})
+    st.session_state.avatars.insert(0, "👨‍🦰")
+    # st.session_state.use_original_text_user2 = False
+
+# Add "reset chat" button befor the chat history
+reset_chat = st.button("Reset chat history?")
+if reset_chat:
+    st.session_state.messages = []
+    st.session_state.avatars = []
 
 # Display chat messages from history on app rerun
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+for i, message in enumerate(st.session_state.messages):
+    with st.chat_message(message["role"], avatar=st.session_state.avatars[i]):
         st.markdown(message["content"], unsafe_allow_html=True)
-    
-# React to user input
-if user_text := st.chat_input("How may I help you?"):
-    # Display user message in chat message container
-    st.chat_message("user").markdown(user_text)
-    # Add user message to chat history
-    st.session_state.messages.append({"role": "user", "content": user_text})
-
-    if OPENAI_KEY:
-        if not st.session_state.split_clf:
-            # Detect toxic language
-            selected_label, token_usage = call_api_client(
-                api_client= st.session_state.client,
-                llm_model=LLM_MODEL,
-                system_prompt=system_content_clf,
-                user_text=user_text,
-                temperature=TEMPERATURE)
-            completion_tokens, prompt_tokens, total_tokens = token_usage
-            # Check if the label generated by the model belongs to the list of expected categories
-            is_label_in_expected_categories = test_label(selected_label)
-    
-            if is_label_in_expected_categories:
-                # The model chose a label that is in the list of expected categories
-    
-                # Edit text
-                system_content_edit = create_prompt_edit_text(selected_label)
-                edited_text, token_usage = call_api_client(
-                    api_client= st.session_state.client,
-                    llm_model=LLM_MODEL,
-                    system_prompt=system_content_edit,
-                    user_text=user_text,
-                    temperature=TEMPERATURE)
-                edited_text = f"Suggested correction:<br><font style='background-color: #FFFF00'>{edited_text}</font>"
-                completion_tokens_edit, prompt_tokens_edit, total_tokens_edit = token_usage
-                completion_tokens += completion_tokens_edit
-                prompt_tokens += prompt_tokens_edit
-                total_tokens += prompt_tokens_edit
-                
-                # Dict with token usage
-                used_tokens = {
-                    "completion_tokens":completion_tokens,
-                    "prompt_tokens":prompt_tokens,
-                    "total_tokens":total_tokens
-                }
-                
-                # Prepare response for user
-                text_for_response = f"This sentence is labeled as <b style='color: red'>{selected_label}</b><br><br>{edited_text}"
-    
-            else:
-                # The model chose a label that is not in the list of expected categories
-                text_for_response = "Something went wrong, the model choose an unexpected category!"
-        
-        elif st.session_state.split_clf:
-            prompt_split_clf = create_prompt_split_clf(user_text)
-            user_text_split_clf, token_usage = call_api_client(
-                api_client= st.session_state.client,
-                llm_model=LLM_MODEL,
-                system_prompt="",
-                user_text=prompt_split_clf,
-                temperature=TEMPERATURE)
-            
-            # Dict with token usage
-            completion_tokens, prompt_tokens, total_tokens = token_usage
-            used_tokens = {
-                "completion_tokens":completion_tokens,
-                "prompt_tokens":prompt_tokens,
-                "total_tokens":total_tokens
-            }
-
-            # Prepare response for user
-            text_for_response = f"{user_text_split_clf}"
-        
-        response_for_user = f"{text_for_response}<br><br>(token usage: {used_tokens})"
-
-    else:
-        response_for_user = "Please add your OpenAI key to continue."
-
-    # Display response in chat message container
-    with st.chat_message("assistant"):
-        st.markdown(response_for_user, unsafe_allow_html=True)
-    # Add response to chat history
-    st.session_state.messages.append({"role": "assistant", "content": response_for_user})
