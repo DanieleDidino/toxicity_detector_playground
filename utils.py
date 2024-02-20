@@ -1,8 +1,9 @@
-#from openai import OpenAI
-import streamlit as st
+# from openai import OpenAI
+# import streamlit as st
+import openai
 from prompts import create_prompt_split_clf, create_prompt_edit_text
 
-def test_label(label):
+def test_label(label: str) -> bool:
     """
     Check if the predicted label belongs to the expected categories.
 
@@ -19,7 +20,7 @@ def test_label(label):
         return False
 
 
-def call_api_client(api_client, llm_model, system_prompt, user_text, temperature):
+def call_api_client(api_client: openai.OpenAI, llm_model: str, system_prompt: str, user_text: str, temperature: float) -> tuple:
     """
     Call the API and get the response.
 
@@ -51,7 +52,7 @@ def call_api_client(api_client, llm_model, system_prompt, user_text, temperature
     return response, token_usage
 
 
-def count_token_usage(api_response):
+def count_token_usage(api_response: openai.types.chat.chat_completion.ChatCompletion) -> tuple:
     """
     Count how many token have been sent to the API.
     This version is specific for OpenAI and Streamlit.
@@ -73,7 +74,7 @@ def count_token_usage(api_response):
     return (completion_tokens, prompt_tokens, total_tokens)
 
 
-def get_responses_from_llm(user_text, api_client, llm_model, temperature):
+def get_responses_from_llm(user_text: str, api_client: openai.OpenAI, llm_model: str, temperature: float) -> tuple:
     """
     This function perform the following steps:
         1) Call a function to create a prompt to split and classify the text.

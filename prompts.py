@@ -1,4 +1,4 @@
-def create_prompt_clf():
+def create_prompt_clf() -> str:
     """
     Build a prompt to use in OpenAI client.
     This prompt describes how to categorize the text.
@@ -37,7 +37,7 @@ def create_prompt_clf():
     return prompt
 
 
-def create_prompt_edit_text_old():
+def create_prompt_edit_text_old() -> str:
     """
     Build a prompt to use in OpenAI client.
     This prompt describes how to edit the text to covert it in a more functional version.
@@ -63,7 +63,7 @@ def create_prompt_edit_text_old():
     return prompt
 
 
-def create_prompt_edit_text(chunked_clf_text):
+def create_prompt_edit_text(chunked_clf_text: str) -> str:
     """
     Build a prompt to use in OpenAI client.
     This prompt describes how to edit the text to covert it in a more functional version.
@@ -132,7 +132,7 @@ def create_prompt_edit_text(chunked_clf_text):
     return prompt
 
 
-def create_prompt_split_clf(user_text):
+def create_prompt_split_clf(user_text: str) -> str:
     """
     Build a prompt to use in OpenAI client.
     This prompt describes how to split the text into chunks and classify them based on the categories described in the f-string below.
