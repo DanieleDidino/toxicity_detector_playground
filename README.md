@@ -14,7 +14,7 @@ This project aims to develop tools that can detect toxic language in chat conver
 
 ## Streamlit
 
-You can interact with the Streamlit app [here](https://toxicitydetectorplayground-lvw8o7nmowk5hrmssbvm5y.streamlit.app/).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://toxicitydetectorplayground-lvw8o7nmowk5hrmssbvm5y.streamlit.app/)
 
 You will need an <b>OpenAI API key</b> (you can create one [here](https://platform.openai.com/account/api-keys)).
 
