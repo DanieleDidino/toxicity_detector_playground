@@ -1,0 +1,1053 @@
+,communication_style,user_type,text,clf_text,edited_text
+0,Criticism,disfunctional_conversation_parner_1,What’s wrong with you?,"Category: criticism
+Text: What’s wrong with you?","Category: criticism
+Functional Text: Let's talk about what's bothering you."
+1,Criticism,disfunctional_conversation_parner_1,Why would you do that to me?,"Category: criticism
+Text: Why would you do that to me?","Category: criticism
+Functional Text: Let's talk about why that action was hurtful to me."
+2,Criticism,disfunctional_conversation_parner_1,You never listen to me,"Category: criticism
+Text: You never listen to me","Category: criticism
+Functional Text: Let's work on improving our communication so that we can better understand each other."
+3,Criticism,disfunctional_conversation_parner_1,You always treat me like that.,"Category: criticism
+Text: You always treat me like that.","Category: criticism
+Functional Text: Let's discuss how we can improve our interactions and find a better way to communicate."
+4,Criticism,disfunctional_conversation_parner_1,"""I can't believe you forgot to pick up the groceries again. It's like you never listen to me or care about what I need.""","Category: criticism
+Text: I can't believe you forgot to pick up the groceries again. It's like you never listen to me or care about what I need.","Category: criticism
+Functional Text: Let's work on better communication so we can meet each other's needs more effectively."
+5,Criticism,disfunctional_conversation_parner_1,It's always excuses with you. You never take responsibility for anything. I'm tired of having to remind you of simple tasks all the time,"Category: criticism
+Text: It's always excuses with you. You never take responsibility for anything.
+
+Category: criticism
+Text: I'm tired of having to remind you of simple tasks all the time.","Category: criticism
+Functional Text: Let's work on taking ownership of our actions and responsibilities.
+
+Category: criticism
+Functional Text: It would be helpful if we could improve on remembering and completing tasks without constant reminders."
+6,Criticism,disfunctional_conversation_parner_1,You're just not trying hard enough,"Category: criticism
+Text: You're just not trying hard enough","Category: criticism
+Functional Text: Let's work on putting in more effort to achieve our goals."
+7,Criticism,disfunctional_conversation_parner_1,You're too messy,"Category: criticism
+Text: You're too messy","Category: criticism
+Functional Text: Let's work on organizing things better."
+8,Criticism,disfunctional_conversation_parner_1,You're too focused on yourself.,"Category: criticism
+Text: You're too focused on yourself.","Category: criticism
+Functional Text: Let's try to consider others' perspectives more."
+9,Criticism,disfunctional_conversation_parner_1,You always ruin things,"Category: criticism
+Text: You always ruin things","Category: criticism
+Functional Text: Let's discuss how we can improve our outcomes together."
+10,Defensiveness,disfunctional_conversation_parner_1,I feel angry when you don’t call me when you say you will,"Category: criticism
+Text: I feel angry when you don’t call me when you say you will","Category: criticism
+Functional Text: It upsets me when you don't follow through on calling me as promised."
+11,Defensiveness,disfunctional_conversation_parner_1,You're making excuses,"Category: criticism
+Text: You're making excuses","Category: criticism
+Functional Text: Let's focus on finding solutions instead of making excuses."
+12,Defensiveness,disfunctional_conversation_parner_1,You don't understand,"Category: Other
+Text: You don't understand","Category: Other
+Functional Text: Let me clarify for you"
+13,Defensiveness,disfunctional_conversation_parner_1,You're overreacting,"Category: criticism
+Text: You're overreacting","Category: criticism
+Functional Text: Let's try to see things from a different perspective."
+14,Defensiveness,disfunctional_conversation_parner_1,You never call me when you say you will. You don’t care about me!,"Category: criticism
+Text: You never call me when you say you will. 
+
+Category: contempt
+Text: You don’t care about me!","Category: criticism
+Functional Text: Let's work on improving our communication. 
+
+Category: contempt
+Functional Text: It seems like you're not considering my feelings."
+15,Defensiveness,disfunctional_conversation_parner_1,That's not what I said,"Category: Other
+Text: That's not what I said","Category: Other
+Functional Text: Let me clarify what I actually said."
+16,Defensiveness,disfunctional_conversation_parner_1,It's your fault.,"Category: criticism
+Text: It's your fault.","Category: criticism
+Functional Text: Let's discuss what went wrong and find a solution together."
+17,Defensiveness,disfunctional_conversation_parner_1,"""I can't believe you",This text is incomplete. Please provide the full text that you would like me to categorize.,"I'm here to help! Please provide the text you would like categorized, and I'll assist you in transforming it into a more functional format."
+18,Defensiveness,disfunctional_conversation_parner_1,You're taking it the wrong way,"Category: defensiveness
+Text: You're taking it the wrong way","Category: defensiveness
+Functional Text: Let's clarify what I meant to avoid any misunderstandings."
+19,Defensiveness,disfunctional_conversation_parner_1,You're being unreasonable.,"Category: criticism
+Text: You're being unreasonable.","Category: criticism
+Functional Text: Let's try to find a more reasonable approach to this situation."
+20,Contempt,disfunctional_conversation_parner_1,I can't believe I'm stuck with someone like you,"Category: contempt
+Text: I can't believe I'm stuck with someone like you","Category: contempt
+Functional Text: Dealing with someone like you is really frustrating."
+21,Contempt,disfunctional_conversation_parner_1,Why am I even bothering to explain this to you,"Category: criticism
+Text: Why am I even bothering to explain this to you","Category: criticism
+Functional Text: Let's focus on finding a more effective way to communicate."
+22,Contempt,disfunctional_conversation_parner_1,You're such a disappointment,"Category: contempt
+Text: You're such a disappointment","Category: contempt
+Functional Text: I am really let down by your actions."
+23,Contempt,disfunctional_conversation_parner_1,You're just a burden to me,"Category: contempt
+Text: You're just a burden to me","Category: contempt
+Functional Text: Let's discuss how we can improve our relationship and support each other better."
+24,Contempt,disfunctional_conversation_parner_1,"Do you ever think before you speak, or is that beyond your capability","Category: criticism
+Text: Do you ever think before you speak, or is that beyond your capability","Category: criticism
+Functional Text: It's important to consider your words before speaking."
+25,Contempt,disfunctional_conversation_parner_1,Why do you always have to be so useless,"Category: criticism
+Text: Why do you always have to be so useless","Category: criticism
+Functional Text: Let's work on improving your effectiveness."
+26,Contempt,disfunctional_conversation_parner_1,"Oh, don't bother trying to understand, you'll never get it anyway","Category: contempt
+Text: Oh, don't bother trying to understand, you'll never get it anyway","Category: contempt
+Functional Text: It's not worth your effort to try to understand, you won't grasp it anyway."
+27,Contempt,disfunctional_conversation_parner_1,"You're so clueless, it's painful to watch","Category: contempt
+Text: You're so clueless, it's painful to watch","Category: contempt
+Functional Text: It's frustrating to see how unaware you are."
+28,Contempt,disfunctional_conversation_parner_1,"You're impossible to please, aren't you","Category: contempt
+Text: You're impossible to please, aren't you","Category: contempt
+Functional Text: It seems like you're never satisfied, are you?"
+29,Contempt,disfunctional_conversation_parner_1,I'm tired of dealing with your nonsense,"Category: criticism
+Text: I'm tired of dealing with your nonsense","Category: criticism
+Functional Text: Let's address the issues and find a way to improve our interactions."
+30,Stonewalling,disfunctional_conversation_parner_1,I'm tired of arguing with you,"Category: criticism
+Text: I'm tired of arguing with you","Category: criticism
+Functional Text: Let's find a way to communicate better and resolve our disagreements."
+31,Stonewalling,disfunctional_conversation_parner_1,You always twist my words anyway,"Category: criticism
+Text: You always twist my words anyway","Category: criticism
+Functional Text: Let's clarify our communication to avoid misunderstandings."
+32,Stonewalling,disfunctional_conversation_parner_1,I'm done with this conversation,"Category: stonewalling
+Text: I'm done with this conversation","Category: stonewalling
+Functional Text: Let's take a break from this conversation."
+33,Stonewalling,disfunctional_conversation_parner_1,I'm sick of your attitude.,"Category: contempt
+Text: I'm sick of your attitude.","Category: contempt
+Functional Text: Let's talk about how we can improve our interactions."
+34,Stonewalling,disfunctional_conversation_parner_1,"Fine, do whatever you want","Category: neutral
+Text: Fine, do whatever you want","Category: neutral
+Functional Text: Feel free to proceed with your choice."
+35,Stonewalling,disfunctional_conversation_parner_1,You never want to address our problems,"Category: criticism
+Text: You never want to address our problems","Category: criticism
+Functional Text: Let's work together to address the problems we're facing."
+36,Stonewalling,disfunctional_conversation_parner_1,I can't deal with your silence anymore,"Category: stonewalling
+Text: I can't deal with your silence anymore","Category: stonewalling
+Functional Text: Let's talk about why you're choosing to stay silent."
+37,Stonewalling,disfunctional_conversation_parner_1,You're just trying to avoid taking responsibility,"Category: defensiveness
+Text: You're just trying to avoid taking responsibility","Category: defensiveness
+Functional Text: Let's discuss how we can address our responsibilities together."
+38,Stonewalling,disfunctional_conversation_parner_1,You're just being irrational,"Category: contempt
+Text: You're just being irrational","Category: contempt
+Functional Text: Let's try to approach this more logically."
+39,Stonewalling,disfunctional_conversation_parner_1,"You're so stubborn, it's exhausting","Category: contempt
+Text: You're so stubborn, it's exhausting","Category: contempt
+Functional Text: Dealing with your stubbornness is draining."
+40,Criticism,disfunctional_conversation_partner_2,What's wrong with me? What's wrong with you for even asking that? Can't you see I'm fine? Why are you always trying to start something,"Category: criticism
+Text: What's wrong with me? What's wrong with you for even asking that?
+
+Category: contempt
+Text: Can't you see I'm fine? Why are you always trying to start something","Category: criticism
+Functional Text: Let's talk about what's bothering us instead of blaming each other.
+
+Category: contempt
+Functional Text: I'm okay, why do you keep looking for trouble?"
+41,Criticism,disfunctional_conversation_partner_2,Why would I do that to you? Are you seriously blaming me for everything? Maybe you should take a look at your own actions before pointing fingers at me!,"Category: criticism
+Text: Why would I do that to you? Are you seriously blaming me for everything?
+
+Category: criticism
+Text: Maybe you should take a look at your own actions before pointing fingers at me!","Category: criticism
+Functional Text: Let's discuss why you think I would do that to you instead of blaming me for everything.
+
+Category: criticism
+Functional Text: Before accusing me, consider reflecting on your own actions first."
+42,Criticism,disfunctional_conversation_partner_2,"Oh, here we go again with the same old complaint. You're the one who never listens! It's always about what I'm doing wrong","Category: criticism
+Text: Oh, here we go again with the same old complaint. You're the one who never listens! It's always about what I'm doing wrong","Category: criticism
+Functional Text: Let's try to have a constructive conversation where we both listen to each other's perspectives."
+43,Criticism,disfunctional_conversation_partner_2,"Oh, here we go again with your constant complaints. I don't always treat you like that, you're just exaggerating as usual. Maybe you should take a look at how you treat me instead of always pointing fingers at me","Category: criticism
+Text: Oh, here we go again with your constant complaints. 
+
+Category: defensiveness
+Text: I don't always treat you like that, you're just exaggerating as usual.
+
+Category: criticism
+Text: Maybe you should take a look at how you treat me instead of always pointing fingers at me.","Category: criticism
+Functional Text: It seems like we're back to hearing your complaints again.
+
+Category: defensiveness
+Functional Text: I don't believe I always treat you that way; you might be exaggerating a bit.
+
+Category: criticism
+Functional Text: Have you considered reflecting on how you treat me instead of solely blaming me?"
+44,Criticism,disfunctional_conversation_partner_2,"Oh did I forgot groceries again?Oh, you think I don't listen or care? That's an interesting perspective! ","Category: criticism
+Text: Oh did I forgot groceries again?
+
+Category: contempt
+Text: Oh, you think I don't listen or care?
+
+Category: neutral
+Text: That's an interesting perspective!","Category: criticism
+Functional Text: I keep forgetting to buy groceries, sorry about that.
+
+Category: contempt
+Functional Text: Do you really believe I don't pay attention or care?
+
+Category: neutral
+Functional Text: That's an interesting point of view!"
+45,Criticism,disfunctional_conversation_partner_2,"Well, maybe if you weren't so controlling and nagging, I wouldn't forget things.","Category: criticism
+Text: Well, maybe if you weren't so controlling and nagging, I wouldn't forget things.","Category: criticism
+Functional Text: Let's work on improving communication and finding a better way to remind each other without feeling pressured."
+46,Criticism,disfunctional_conversation_partner_2,"I'm sorry, but that's just your perspective","Category: defensiveness
+Text: I'm sorry, but that's just your perspective","Category: defensiveness
+Functional Text: I understand your point, but that's how you see it."
+47,Criticism,disfunctional_conversation_partner_2,"Well, maybe if you were more organized, it wouldn't bother you so much","Category: criticism
+Text: Well, maybe if you were more organized, it wouldn't bother you so much","Category: criticism
+Functional Text: Being more organized could help reduce the things that bother you."
+48,Criticism,disfunctional_conversation_partner_2,"
+Well, maybe if you paid more attention to my needs once in a while, I wouldn't have to focus so much on myself","Category: criticism
+Text: Well, maybe if you paid more attention to my needs once in a while, I wouldn't have to focus so much on myself","Category: criticism
+Functional Text: Let's try to prioritize each other's needs to create a more balanced relationship."
+49,Criticism,disfunctional_conversation_partner_2,"Well, maybe if you didn't have such high expectations, things wouldn't always end up ruined.","Category: criticism
+Text: Well, maybe if you didn't have such high expectations, things wouldn't always end up ruined.","Category: criticism
+Functional Text: Lowering expectations could lead to better outcomes and prevent disappointments."
+50,Defensiveness,disfunctional_conversation_partner_2,What did I do? I didn’t do anything wrong. Why are you blaming me when I did nothing?,"Category: defensiveness
+Text: What did I do? I didn’t do anything wrong. Why are you blaming me when I did nothing?","Category: defensiveness
+Functional Text: Let's talk about what's bothering you. I want to understand your perspective better."
+51,Defensiveness,disfunctional_conversation_partner_2,I always get blamed for everything,"Category: criticism
+Text: I always get blamed for everything","Category: criticism
+Functional Text: Let's discuss how we can address the issue of assigning blame more fairly."
+52,Defensiveness,disfunctional_conversation_partner_2,You're making a big deal out of nothing.,"Category: criticism
+Text: You're making a big deal out of nothing.","Category: criticism
+Functional Text: Let's try to keep things in perspective."
+53,Defensiveness,disfunctional_conversation_partner_2,I'm not the one with the problem here,"Category: defensiveness
+Text: I'm not the one with the problem here","Category: defensiveness
+Functional Text: Let's discuss the situation to understand where the issue lies."
+54,Defensiveness,disfunctional_conversation_partner_2,What about when you forget to call me?! You obviously don’t love me,"Category: criticism
+Text: What about when you forget to call me?! You obviously don’t love me","Category: criticism
+Functional Text: Let's talk about how we can improve communication so we both feel loved and valued."
+55,Defensiveness,disfunctional_conversation_partner_2,"Well, maybe you should be clearer next time. It's not my fault if you can't communicate properly","Category: criticism
+Text: Well, maybe you should be clearer next time. It's not my fault if you can't communicate properly","Category: criticism
+Functional Text: Let's work on improving communication for better understanding next time."
+56,Defensiveness,disfunctional_conversation_partner_2,"Oh, typical, blaming me again. Maybe if you took some responsibility for once, things wouldn't always be a mess.","Category: criticism
+Text: Oh, typical, blaming me again.
+
+Category: defensiveness
+Text: Maybe if you took some responsibility for once, things wouldn't always be a mess.","Category: criticism
+Functional Text: It seems like you're pointing fingers at me again.
+
+Category: defensiveness
+Functional Text: If we both take responsibility, we can avoid things turning into a mess all the time."
+57,Defensiveness,disfunctional_conversation_partner_2,"Well, maybe if you actually paid attention once in a while, we wouldn't be in this situation","Category: criticism
+Text: Well, maybe if you actually paid attention once in a while, we wouldn't be in this situation","Category: criticism
+Functional Text: Let's try to focus more on details to avoid ending up in such situations."
+58,Defensiveness,disfunctional_conversation_partner_2,"Oh, so now it's my fault for how I feel? Maybe if you communicated better, I wouldn't have to ""take it"" any way at all","Category: criticism
+Text: Oh, so now it's my fault for how I feel?
+
+Category: criticism
+Text: Maybe if you communicated better, I wouldn't have to ""take it"" any way at all","Category: criticism
+Functional Text: It's not fair to blame me for my feelings, is it?
+
+Category: criticism
+Functional Text: If we communicated better, I wouldn't feel this way."
+59,Defensiveness,disfunctional_conversation_partner_2,"Well, maybe if you weren't so stubborn, we wouldn't be having this problem","Category: criticism
+Text: Well, maybe if you weren't so stubborn, we wouldn't be having this problem","Category: criticism
+Functional Text: Let's try to find a solution by being more open to different perspectives."
+60,Contempt,disfunctional_conversation_partner_2,That's a rude thing to say. I don't appreciate your negativity,"Category: criticism
+Text: That's a rude thing to say.
+
+Category: contempt
+Text: I don't appreciate your negativity","Category: criticism
+Functional Text: It's not polite to say that.
+
+Category: contempt
+Functional Text: I'm not a fan of your negative attitude."
+61,Contempt,disfunctional_conversation_partner_2,It's pointless trying to explain this to you when you clearly don't get it,"Category: contempt
+Text: It's pointless trying to explain this to you when you clearly don't get it","Category: contempt
+Functional Text: Let's move on since it seems like you're not understanding what I'm saying."
+62,Contempt,disfunctional_conversation_partner_2,"Oh, coming from you, that's rich","Category: contempt
+Text: Oh, coming from you, that's rich","Category: contempt
+Functional Text: That's quite ironic coming from you."
+63,Contempt,disfunctional_conversation_partner_2,You're always dragging me down and making everything harder,"Category: criticism
+Text: You're always dragging me down and making everything harder","Category: criticism
+Functional Text: Let's discuss how we can work together more effectively without feeling weighed down or overwhelmed."
+64,Contempt,disfunctional_conversation_partner_2,"Why do you always have to criticize me? Maybe if you listened more, you'd realize I actually do think before speaking","Category: criticism
+Text: Why do you always have to criticize me?
+
+Category: neutral
+Text: Maybe if you listened more, you'd realize I actually do think before speaking","Category: criticism
+Functional Text: Let's discuss how we can communicate constructively without criticism.
+
+Category: neutral
+Functional Text: It might help if we both actively listen to understand each other's perspectives better."
+65,Contempt,disfunctional_conversation_partner_2,"Well, maybe if you actually contributed once in a while, we wouldn't have so many problems","Category: criticism
+Text: Well, maybe if you actually contributed once in a while, we wouldn't have so many problems","Category: criticism
+Functional Text: Let's work together more often to reduce the number of issues we face."
+66,Contempt,disfunctional_conversation_partner_2,"Fine, I guess I'll just keep my thoughts to myself since you obviously don't care about what I have to say anyway","Category: contempt
+Text: Fine, I guess I'll just keep my thoughts to myself since you obviously don't care about what I have to say anyway","Category: contempt
+Functional Text: I'll refrain from sharing my thoughts since it seems like you're not interested in hearing them."
+67,Contempt,disfunctional_conversation_partner_2,"Oh, excuse me for not being a mind reader like you. If you communicated better, maybe I wouldn't have to guess what you want all the time","Category: criticism
+Text: Oh, excuse me for not being a mind reader like you.
+
+Category: criticism
+Text: If you communicated better, maybe I wouldn't have to guess what you want all the time.","Category: criticism
+Functional Text: Let's work on being more clear in our communication to avoid misunderstandings.
+
+Category: criticism
+Functional Text: Improving how we communicate can help us understand each other's needs without guessing."
+68,Contempt,disfunctional_conversation_partner_2,"Well, maybe if you weren't so demanding, I could actually meet your expectations once in a while","Category: criticism
+Text: Well, maybe if you weren't so demanding, I could actually meet your expectations once in a while","Category: criticism
+Functional Text: Let's discuss how we can adjust expectations to work better together."
+69,Contempt,disfunctional_conversation_partner_2,"Oh, excuse me for trying to handle everything while you sit back and complain","Category: criticism
+Text: Oh, excuse me for trying to handle everything while you sit back and complain","Category: criticism
+Functional Text: Let's discuss how we can share responsibilities more effectively instead of blaming each other."
+70,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+71,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: neutral
+Text: General unresponsiveness","Category: neutral
+Functional Text: Let's work on improving responsiveness in general."
+72,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+73,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+74,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Engage more actively and respond to communication."
+75,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: neutral
+Text: General unresponsiveness","Category: neutral
+Functional Text: Let's work on improving responsiveness in general."
+76,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+77,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+78,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+79,Stonewalling,disfunctional_conversation_partner_2,General unresponsiveness,"Category: stonewalling
+Text: General unresponsiveness","Category: stonewalling
+Functional Text: Let's work on being more responsive and engaged in our communication."
+80,Criticism,functional_conversation_partner_1,"Hey, is everything okay with you","Category: neutral
+Text: Hey, is everything okay with you","Category: neutral
+Functional Text: Just checking in, are you doing alright?"
+81,Criticism,functional_conversation_partner_1,"Hey, why'd you do that","Category: Other
+Text: Hey, why'd you do that","Category: Other
+Functional Text: Can you explain why you did that?"
+82,Criticism,functional_conversation_partner_1,I've been feeling like my voice isn't always heard. Can we make sure we're both listening to each other?,"Category: neutral
+Text: I've been feeling like my voice isn't always heard. Can we make sure we're both listening to each other?","Category: neutral
+Functional Text: Let's ensure we both actively listen to each other so that we can address my concerns about feeling unheard."
+83,Criticism,functional_conversation_partner_1,I've been feeling consistently uncomfortable with the way our interactions have been lately.,"Category: neutral
+Text: I've been feeling consistently uncomfortable with the way our interactions have been lately.","Category: neutral
+Functional Text: Let's talk about how our interactions have been making me feel uncomfortable lately."
+84,Criticism,functional_conversation_partner_1,"Hey, I noticed we forgot to pick up the groceries again. I understand things can get busy, but it's important to me that we stay organized with household tasks. ","Category: neutral
+Text: Hey, I noticed we forgot to pick up the groceries again. I understand things can get busy, but it's important to me that we stay organized with household tasks.","Category: neutral
+Functional Text: Let's make sure we prioritize picking up groceries to stay organized with our household tasks."
+85,Criticism,functional_conversation_partner_1,"I understand work can be demanding, but it's becoming a pattern for us to miss important tasks like grocery shopping. It's challenging for me to keep reminding you, and I'm feeling overwhelmed. Can we brainstorm together on how we can better manage our responsibilities","Category: neutral
+Text: I understand work can be demanding, but it's becoming a pattern for us to miss important tasks like grocery shopping. 
+
+Category: criticism
+Text: It's challenging for me to keep reminding you, and I'm feeling overwhelmed.
+
+Category: neutral
+Text: Can we brainstorm together on how we can better manage our responsibilities.","Category: neutral
+Functional Text: I get that work is tough, but we keep forgetting important things like grocery shopping.
+
+Category: criticism
+Functional Text: It's hard for me to always remind you, and I'm starting to feel really stressed out.
+
+Category: neutral
+Functional Text: Let's sit down and come up with ideas on how we can handle our tasks more effectively."
+86,Criticism,functional_conversation_partner_1,"
+I value your efforts, but I sense there might be some areas where we could adjust our approach to achieve our goals more effectively","Category: neutral
+Text: I value your efforts, but I sense there might be some areas where we could adjust our approach to achieve our goals more effectively","Category: neutral
+Functional Text: I appreciate your hard work. Let's explore potential adjustments to improve our goal achievement."
+87,Criticism,functional_conversation_partner_1,ve noticed that things seem a bit disorganized lately. Can we talk about finding ways to keep our space neat and tidy together?,"Category: neutral
+Text: I've noticed that things seem a bit disorganized lately. Can we talk about finding ways to keep our space neat and tidy together?","Category: neutral
+Functional Text: Let's discuss how we can work together to keep our space clean and organized since it seems a bit messy lately."
+88,Criticism,functional_conversation_partner_1,"I've noticed that lately, our conversations have been more centered around your experiences and needs. Can we find a way to balance the focus on both of us more evenly","Category: neutral
+Text: I've noticed that lately, our conversations have been more centered around your experiences and needs. Can we find a way to balance the focus on both of us more evenly","Category: neutral
+Functional Text: Let's work together to balance our conversations by focusing on both of our experiences and needs more equally."
+89,Criticism,functional_conversation_partner_1,I've noticed that sometimes our plans don't go as expected. Can we discuss how we can work together to improve our outcomes in the future,"Category: neutral
+Text: I've noticed that sometimes our plans don't go as expected. Can we discuss how we can work together to improve our outcomes in the future","Category: neutral
+Functional Text: Let's talk about how we can collaborate to enhance our future results since our plans sometimes don't go as we anticipate."
+90,Defensiveness,functional_conversation_partner_1,I feel upset when you don't follow through on calling me when you say you will.,"Category: criticism
+Text: I feel upset when you don't follow through on calling me when you say you will.","Category: criticism
+Functional Text: It would mean a lot to me if you could follow through on calling me when you say you will."
+91,Defensiveness,functional_conversation_partner_1,You're making excuses instead of dealing with it directly,"Category: criticism
+Text: You're making excuses instead of dealing with it directly","Category: criticism
+Functional Text: Let's address the issue head-on instead of finding excuses."
+92,Defensiveness,functional_conversation_partner_1,It appears there may be a miscommunication,"Category: neutral
+Text: It appears there may be a miscommunication","Category: neutral
+Functional Text: Let's clarify to ensure we're on the same page."
+93,Defensiveness,functional_conversation_partner_1,It seems like your reaction might be stronger than necessary given the circumstances,"Category: criticism
+Text: It seems like your reaction might be stronger than necessary given the circumstances","Category: criticism
+Functional Text: Let's consider if the intensity of your reaction matches the situation at hand."
+94,Defensiveness,functional_conversation_partner_1,"Hey, it feels like you're not calling me when you say you will, which kinda makes me feel like you're not that into our connection.","Category: criticism
+Text: Hey, it feels like you're not calling me when you say you will, which kinda makes me feel like you're not that into our connection.","Category: criticism
+Functional Text: It would mean a lot to me if you could follow through on calling when you say you will. It makes me question how invested you are in our connection."
+95,Defensiveness,functional_conversation_partner_1,"
+It seems there might be a misunderstanding. Could you please clarify your message, so we can ensure we're both understanding each other correctly","Category: neutral
+Text: It seems there might be a misunderstanding. Could you please clarify your message, so we can ensure we're both understanding each other correctly","Category: neutral
+Functional Text: Let's clear up any confusion. Can you please explain your message so we can make sure we're on the same page?"
+96,Defensiveness,functional_conversation_partner_1,I think there might be some aspects we need to address together. Can we discuss what happened and find a constructive way forward,"Category: neutral
+Text: I think there might be some aspects we need to address together. Can we discuss what happened and find a constructive way forward","Category: neutral
+Functional Text: Let's talk about what happened together and figure out a positive way to move forward."
+97,Defensiveness,functional_conversation_partner_1,"I'm feeling disappointed right now, but I believe we can work through this together. Can we talk about what happened and how we can move forward positively?","Category: neutral
+Text: I'm feeling disappointed right now, but I believe we can work through this together. Can we talk about what happened and how we can move forward positively?","Category: neutral
+Functional Text: Let's discuss what happened and find a positive way to move forward together despite my current disappointment."
+98,Defensiveness,functional_conversation_partner_1,It seems like there may be some misinterpretation happening. Can we talk through it together to ensure we understand each other correctly,"Category: neutral
+Text: It seems like there may be some misinterpretation happening. Can we talk through it together to ensure we understand each other correctly","Category: neutral
+Functional Text: Let's discuss together to clear up any misunderstandings and ensure we're on the same page."
+99,Defensiveness,functional_conversation_partner_1,"I see things differently, but I'm open to understanding your perspective","Category: neutral
+Text: I see things differently, but I'm open to understanding your perspective","Category: neutral
+Functional Text: I have a different view, but I'm willing to listen and understand your perspective."
+100,Contempt,functional_conversation_partner_1,I'm feeling frustrated with the current situation and finding it challenging to deal with you,"Category: criticism
+Text: I'm feeling frustrated with the current situation and finding it challenging to deal with you","Category: criticism
+Functional Text: Let's talk about how we can improve our interactions and address the current challenges."
+101,Contempt,functional_conversation_partner_1,I'm finding it challenging to see the value in explaining this to you,"Category: criticism
+Text: I'm finding it challenging to see the value in explaining this to you","Category: criticism
+Functional Text: Let's discuss how we can make this explanation more valuable for both of us."
+102,Contempt,functional_conversation_partner_1,I'm feeling disappointed by your recent actions,"Category: criticism
+Text: I'm feeling disappointed by your recent actions","Category: criticism
+Functional Text: Let's talk about your recent actions that have left me feeling disappointed."
+103,Contempt,functional_conversation_partner_1,I'm finding it difficult to handle everything right now,"Category: neutral
+Text: I'm finding it difficult to handle everything right now","Category: neutral
+Functional Text: It's a bit overwhelming for me to manage everything at the moment."
+104,Contempt,functional_conversation_partner_1,"Let's be more mindful of our words,  It might help improve our communication.","Category: neutral
+Text: Let's be more mindful of our words, It might help improve our communication.","Category: neutral
+Functional Text: Let's pay closer attention to how we speak; it could enhance our communication."
+105,Contempt,functional_conversation_partner_1,I've noticed some difficulties lately. Can we talk about how we can improve the situation together,"Category: neutral
+Text: I've noticed some difficulties lately. Can we talk about how we can improve the situation together","Category: neutral
+Functional Text: Let's discuss the recent challenges and work together to find ways to improve the situation."
+106,Contempt,functional_conversation_partner_1,I understand you might be feeling frustrated. Let's try to approach this calmly and work together to find a solution,"Category: neutral
+Text: I understand you might be feeling frustrated. Let's try to approach this calmly and work together to find a solution","Category: neutral
+Functional Text: Let's stay calm and work together to find a solution, considering your feelings of frustration."
+107,Contempt,functional_conversation_partner_1,I've noticed some challenges in our communication. Can we work together to improve our understanding of each other's perspectives and find more effective ways to address them,"Category: neutral
+Text: I've noticed some challenges in our communication. Can we work together to improve our understanding of each other's perspectives and find more effective ways to address them","Category: neutral
+Functional Text: Let's team up to enhance our communication by understanding each other's perspectives better and finding more effective ways to address any challenges."
+108,Contempt,functional_conversation_partner_1,It seems like we're having difficulty finding common ground. ,"Category: neutral
+Text: It seems like we're having difficulty finding common ground.","Category: neutral
+Functional Text: Let's work together to find common ground."
+109,Contempt,functional_conversation_partner_1,"I'm feeling overwhelmed by the situation, and I believe there's room for improvement in how we handle things together. Can we discuss our concerns openly and work towards finding a more effective way to address them","Category: neutral
+Text: I'm feeling overwhelmed by the situation, and I believe there's room for improvement in how we handle things together. Can we discuss our concerns openly and work towards finding a more effective way to address them","Category: neutral
+Functional Text: Let's talk openly about our concerns and find a better way to handle things together to improve the situation."
+110,Stonewalling,functional_conversation_partner_1,I'm feeling tired from our ongoing disagreements,"Category: neutral
+Text: I'm feeling tired from our ongoing disagreements","Category: neutral
+Functional Text: Let's find a way to resolve our ongoing disagreements to ease the strain."
+111,Stonewalling,functional_conversation_partner_1,You often interpret my words differently,"Category: neutral
+Text: You often interpret my words differently","Category: neutral
+Functional Text: Let's discuss how we can better understand each other's perspectives when interpreting my words."
+112,Stonewalling,functional_conversation_partner_1,"I think it might be beneficial for us to pause this conversation for now. Let's take some time to reflect individually, and we can revisit it later.","Category: neutral
+Text: I think it might be beneficial for us to pause this conversation for now. Let's take some time to reflect individually, and we can revisit it later.","Category: neutral
+Functional Text: Let's take a break from this conversation to reflect on our own thoughts. We can come back to it later when we're ready."
+113,Stonewalling,functional_conversation_partner_1,I'm feeling frustrated by the tone of our interactions,"Category: criticism
+Text: I'm feeling frustrated by the tone of our interactions","Category: criticism
+Functional Text: Let's work on improving the tone of our interactions."
+114,Stonewalling,functional_conversation_partner_1,"Got it, I'll go along with your choice","Category: neutral
+Text: Got it, I'll go along with your choice","Category: neutral
+Functional Text: I understand, I'll support your decision."
+115,Stonewalling,functional_conversation_partner_1,"I've noticed that some issues remain unresolved, and I believe it's important for us to address them together. Can we find a time to discuss our concerns openly and work towards finding solutions that benefit both of us","Category: neutral
+Text: I've noticed that some issues remain unresolved, and I believe it's important for us to address them together. Can we find a time to discuss our concerns openly and work towards finding solutions that benefit both of us","Category: neutral
+Functional Text: Let's talk about the unresolved issues together. Can we schedule a time to openly discuss our concerns and find solutions that work for both of us?"
+116,Stonewalling,functional_conversation_partner_1,I've been feeling uneasy about the lack of communication between us. Can we have an open discussion about what might be causing this silence and how we can work together to improve our communication?,"Category: neutral
+Text: I've been feeling uneasy about the lack of communication between us. Can we have an open discussion about what might be causing this silence and how we can work together to improve our communication?","Category: neutral
+Functional Text: Let's talk openly about why we're not communicating much and figure out how we can make our communication better together."
+117,Stonewalling,functional_conversation_partner_1,I've noticed some situations where it seems like responsibility hasn't been fully addressed. Can we discuss ways to ensure we're both taking ownership of our actions and decisions?,"Category: neutral
+Text: I've noticed some situations where it seems like responsibility hasn't been fully addressed. Can we discuss ways to ensure we're both taking ownership of our actions and decisions?","Category: neutral
+Functional Text: Let's talk about how we can make sure we both take responsibility for our actions and decisions in those situations I've noticed."
+118,Stonewalling,functional_conversation_partner_1,"ve noticed some tension, and I believe it's important for us to address it calmly and logically. Can we talk about what's been bothering you so we can work through it together?","Category: neutral
+Text: I've noticed some tension, and I believe it's important for us to address it calmly and logically. Can we talk about what's been bothering you so we can work through it together?","Category: neutral
+Functional Text: Let's have a calm and logical conversation to address the tension. Can we talk about what's bothering you so we can work through it together?"
+119,Stonewalling,functional_conversation_partner_1,"
+It seems like we may have differing viewpoints, which can lead to some challenges in our discussions. Can we explore ways to better understand each other's perspectives and find constructive ways to address any disagreements? ","Category: neutral
+Text: It seems like we may have differing viewpoints, which can lead to some challenges in our discussions. Can we explore ways to better understand each other's perspectives and find constructive ways to address any disagreements?","Category: neutral
+Functional Text: Let's discuss our differing viewpoints and find constructive ways to understand each other better and address any disagreements that may arise."
+120,Criticism,functional_conversation_partner_2,"I appreciate your concern, I'm feeling alright. Thank you for checking in,","Category: neutral
+Text: I appreciate your concern, I'm feeling alright. Thank you for checking in.","Category: neutral
+Functional Text: Thanks for caring about me. I'm doing fine. I appreciate you checking up on me."
+121,Criticism,functional_conversation_partner_2,"I understand your feelings, and I'm sorry for causing you pain. Let me explain the reasons behind my actions so we can better understand each other.","Category: neutral
+Text: I understand your feelings, and I'm sorry for causing you pain.
+
+Category: neutral
+Text: Let me explain the reasons behind my actions so we can better understand each other.","Category: neutral
+Functional Text: I acknowledge your emotions, and I apologize for any distress I've caused you.
+
+Category: neutral
+Functional Text: I'd like to clarify why I acted the way I did to enhance our mutual understanding."
+122,Criticism,functional_conversation_partner_2,I understand how important it is for both of us. Let's definitely work on actively listening to each other.,"Category: neutral
+Text: I understand how important it is for both of us. Let's definitely work on actively listening to each other.","Category: neutral
+Functional Text: Let's make a conscious effort to listen to each other because I know it's crucial for both of us."
+123,Criticism,functional_conversation_partner_2,"
+I hear you saying that. Can you provide specific examples so we can work together to improve our interactions?","Category: neutral
+Text: I hear you saying that. Can you provide specific examples so we can work together to improve our interactions?","Category: neutral
+Functional Text: I understand your point. Could you share some specific examples to help us collaborate on enhancing how we interact?"
+124,Criticism,functional_conversation_partner_2,"I'm sorry, I just got caught up with work. It's not like I do this on purpose.","Category: defensiveness
+Text: I'm sorry, I just got caught up with work. It's not like I do this on purpose.","Category: defensiveness
+Functional Text: Apologies, work kept me busy. I didn't mean to neglect it intentionally."
+125,Criticism,functional_conversation_partner_2,"Absolutely, I hear you. I appreciate your patience in dealing with this issue. Let's sit down together and come up with a plan to ensure we stay on top of our responsibilities more effectively. Maybe we can create a shared calendar or task list to help us keep track of important tasks like grocery shopping and other household responsibilities.","Category: neutral
+Text: Absolutely, I hear you. I appreciate your patience in dealing with this issue. Let's sit down together and come up with a plan to ensure we stay on top of our responsibilities more effectively. Maybe we can create a shared calendar or task list to help us keep track of important tasks like grocery shopping and other household responsibilities.","Category: neutral
+Functional Text: I understand where you're coming from. Thanks for being patient. Let's work together to plan how we can handle our responsibilities better. We could make a shared calendar or task list to stay organized with things like grocery shopping and household tasks."
+126,Criticism,functional_conversation_partner_2,"Thank you for recognizing my efforts ,I agree that there may be room for improvement in our approach to better align with our goals","Category: neutral
+Text: Thank you for recognizing my efforts, I agree that there may be room for improvement in our approach to better align with our goals","Category: neutral
+Functional Text: I appreciate your acknowledgment of my work. I agree that we can make some adjustments to better meet our goals."
+127,Criticism,functional_conversation_partner_2,"Of course, I appreciate you bringing this up. Let's schedule some time to discuss","Category: neutral
+Text: Of course, I appreciate you bringing this up. Let's schedule some time to discuss","Category: neutral
+Functional Text: Thank you for raising this. Let's find a time to talk about it."
+128,Criticism,functional_conversation_partner_2,I appreciate your observation and willingness to address this. Let's work together to ensure our conversations allow space for both of us,"Category: neutral
+Text: I appreciate your observation and willingness to address this. Let's work together to ensure our conversations allow space for both of us","Category: neutral
+Functional Text: Thank you for sharing your thoughts and being open to discussing this. Let's collaborate to make sure our conversations are inclusive and considerate of both of us."
+129,Criticism,functional_conversation_partner_2,I agree that it's important to address this. Let's have a conversation to identify areas where we can refine our planning process,"Category: neutral
+Text: I agree that it's important to address this. Let's have a conversation to identify areas where we can refine our planning process","Category: neutral
+Functional Text: Let's talk about this to find ways to improve our planning process."
+130,Defensiveness,functional_conversation_partner_2,I hear you telling me that you think that I am not contributing enough to the relationship. Can you please clarify this for me so I understand?,"Category: neutral
+Text: I hear you telling me that you think that I am not contributing enough to the relationship. Can you please clarify this for me so I understand?","Category: neutral
+Functional Text: I understand you feel I'm not doing my part in the relationship. Could you explain more so I can grasp your perspective better?"
+131,Defensiveness,functional_conversation_partner_2,I understand your concern. Let's shift our focus to resolving the matter directly. What specific actions do you suggest we take to address it effectively?,"Category: neutral
+Text: I understand your concern. Let's shift our focus to resolving the matter directly. What specific actions do you suggest we take to address it effectively?","Category: neutral
+Functional Text: I get where you're coming from. Let's work together to tackle this head-on. What do you think we should do to fix it properly?"
+132,Defensiveness,functional_conversation_partner_2,It seems like there might be some confusion in our communication. Let's take a moment to clarify and ensure we're on the same page,"Category: neutral
+Text: It seems like there might be some confusion in our communication. Let's take a moment to clarify and ensure we're on the same page","Category: neutral
+Functional Text: Let's clear up any confusion in our communication by taking a moment to ensure we understand each other."
+133,Defensiveness,functional_conversation_partner_2,I see what you're saying. Let's take a moment to review the situation objectively,"Category: neutral
+Text: I see what you're saying. Let's take a moment to review the situation objectively","Category: neutral
+Functional Text: Let's pause and look at the situation from a neutral perspective."
+134,Defensiveness,functional_conversation_partner_2,It seems like you're upset because I haven't been calling you when I promised. I understand how that can make you feel like I don't care. Let's discuss this further and find a solution that works for both of us,"Category: neutral
+Text: It seems like you're upset because I haven't been calling you when I promised. I understand how that can make you feel like I don't care. Let's discuss this further and find a solution that works for both of us","Category: neutral
+Functional Text: I see you're upset because I haven't been keeping my promise to call you. I understand how that might make you feel like I don't care. Let's talk more about this and figure out a solution that suits us both."
+135,Defensiveness,functional_conversation_partner_2,"Certainly, I appreciate your willingness to clarify. ","Category: neutral
+Text: Certainly, I appreciate your willingness to clarify.","Category: neutral
+Functional Text: Thank you for being willing to explain."
+136,Defensiveness,functional_conversation_partner_2,"
+Absolutely, I'm glad you're open to discussing this. Let's talk about the situation openly and find a solution that works for both of us.","Category: neutral
+Text: Absolutely, I'm glad you're open to discussing this. Let's talk about the situation openly and find a solution that works for both of us.","Category: neutral
+Functional Text: I appreciate your willingness to talk about this. Let's have an open conversation to find a solution that benefits us both."
+137,Defensiveness,functional_conversation_partner_2,"I appreciate your willingness to address the situation constructively. Let's have an open and honest conversation about what happened, and I'm confident we can find a solution that benefits both of us","Category: neutral
+Text: I appreciate your willingness to address the situation constructively. Let's have an open and honest conversation about what happened, and I'm confident we can find a solution that benefits both of us","Category: neutral
+Functional Text: Let's talk openly about what happened. I believe we can work together to find a solution that benefits us both."
+138,Defensiveness,functional_conversation_partner_2,"
+I appreciate your willingness to address the situation. Let's definitely take the time to discuss it further and make sure we're both clear on where we stand","Category: neutral
+Text: I appreciate your willingness to address the situation. Let's definitely take the time to discuss it further and make sure we're both clear on where we stand","Category: neutral
+Functional Text: Thank you for being open to talking about this. Let's chat more to make sure we're on the same page."
+139,Defensiveness,functional_conversation_partner_2,Thank you for being open to hearing my perspective. Let's take the opportunity to discuss our perspectives further and see if we can find common ground,"Category: neutral
+Text: Thank you for being open to hearing my perspective. Let's take the opportunity to discuss our perspectives further and see if we can find common ground","Category: neutral
+Functional Text: I appreciate your willingness to listen to my point of view. Let's talk more about our perspectives and try to find common ground together."
+140,Contempt,functional_conversation_partner_2,"I feel contempt for you right now, but I do not want that to get in the way of our ability to communicate and solve this problem","Category: contempt
+Text: I feel contempt for you right now, but I do not want that to get in the way of our ability to communicate and solve this problem","Category: contempt
+Functional Text: Despite feeling contempt towards you, let's set it aside to focus on communicating and solving this problem together."
+141,Contempt,functional_conversation_partner_2,"I feel like you are belittling me right now, and I am asking you to please stop","Category: criticism
+Text: I feel like you are belittling me right now
+
+Category: neutral
+Text: I am asking you to please stop","Category: criticism
+Functional Text: Let's discuss how we can communicate respectfully without belittling each other.
+
+Category: neutral
+Functional Text: Please, could you stop what you're doing?"
+142,Contempt,functional_conversation_partner_2,I'm sorry to hear that my actions have caused you disappointment. Can you please explain further so we can address the issue together,"Category: neutral
+Text: I'm sorry to hear that my actions have caused you disappointment. Can you please explain further so we can address the issue together","Category: neutral
+Functional Text: I'm sorry that I disappointed you. Could you share more details so we can work on resolving the issue together?"
+143,Contempt,functional_conversation_partner_2,I'm feeling overwhelmed by everything at the moment to find some solutions,"Category: neutral
+Text: I'm feeling overwhelmed by everything at the moment to find some solutions","Category: neutral
+Functional Text: I'm currently overwhelmed by everything and need to find some solutions."
+144,Contempt,functional_conversation_partner_2,Your suggestion makes sense,"Category: neutral
+Text: Your suggestion makes sense","Category: neutral
+Functional Text: That sounds like a good idea."
+145,Contempt,functional_conversation_partner_2,"Absolutely, I appreciate you bringing this up. I'm confident we can overcome these difficulties.","Category: neutral
+Text: Absolutely, I appreciate you bringing this up. I'm confident we can overcome these difficulties.","Category: neutral
+Functional Text: Thank you for raising this. I believe we can work together to tackle these challenges."
+146,Contempt,functional_conversation_partner_2,"Thank you for acknowledging my feelings. I agree, approaching this calmly and collaboratively is the best way forward. Let's discuss possible solutions","Category: neutral
+Text: Thank you for acknowledging my feelings. I agree, approaching this calmly and collaboratively is the best way forward. Let's discuss possible solutions","Category: neutral
+Functional Text: I appreciate you recognizing how I feel. Let's work together calmly and collaboratively to find solutions. Let's talk about possible ways to move forward."
+147,Contempt,functional_conversation_partner_2,I appreciate you bringing this to my attention. Let's definitely work together to enhance our communication.,"Category: neutral
+Text: I appreciate you bringing this to my attention. Let's definitely work together to enhance our communication.","Category: neutral
+Functional Text: Thank you for letting me know. Let's collaborate to improve our communication."
+148,Contempt,functional_conversation_partner_2,"I agree, it's important for us to find common ground. Let's have an open and respectful conversation to understand each other's perspectives better and find a solution that works for both of us","Category: neutral
+Text: I agree, it's important for us to find common ground. Let's have an open and respectful conversation to understand each other's perspectives better and find a solution that works for both of us","Category: neutral
+Functional Text: Let's talk openly and respectfully to find common ground. We can understand each other better and work out a solution that benefits us both."
+149,Contempt,functional_conversation_partner_2,Certainly! It seems like there might be some frustrations we need to address. Let's have an open and honest conversation about what's bothering us so we can find a positive way forward together,"Category: neutral
+Text: Certainly! It seems like there might be some frustrations we need to address. Let's have an open and honest conversation about what's bothering us so we can find a positive way forward together","Category: neutral
+Functional Text: Let's talk openly about our frustrations to find a positive way forward together."
+150,Stonewalling,functional_conversation_partner_2,"I understand, let's figure out how to better manage our conflicts.","Category: neutral
+Text: I understand, let's figure out how to better manage our conflicts.","Category: neutral
+Functional Text: Let's work together to find ways to improve how we handle conflicts."
+151,Stonewalling,functional_conversation_partner_2,Thank you for bringing this to my attention. Let's explore ways to ensure we're both on the same page.,"Category: neutral
+Text: Thank you for bringing this to my attention. Let's explore ways to ensure we're both on the same page.","Category: neutral
+Functional Text: I appreciate you letting me know. Let's discuss how we can align our understanding."
+152,Stonewalling,functional_conversation_partner_2,"I agree, taking some time to reflect individually sounds like a good idea","Category: neutral
+Text: I agree, taking some time to reflect individually sounds like a good idea","Category: neutral
+Functional Text: It's a good idea to take some time for personal reflection."
+153,Stonewalling,functional_conversation_partner_2,I'm sorry that my tone has been causing frustration. Let's work together to find a better way to communicate our needs,"Category: neutral
+Text: I'm sorry that my tone has been causing frustration. Let's work together to find a better way to communicate our needs","Category: neutral
+Functional Text: Let's collaborate to improve how we express our needs and communicate effectively."
+154,Stonewalling,functional_conversation_partner_2,Thank you for understanding. I appreciate your willingness to go along with my decision,"Category: neutral
+Text: Thank you for understanding. I appreciate your willingness to go along with my decision","Category: neutral
+Functional Text: I'm grateful for your understanding and support in accepting my decision."
+155,Stonewalling,functional_conversation_partner_2,I appreciate your willingness to address our unresolved issues together. Let's set aside time to have a constructive conversation about our concerns. Thank you for initiating this discussion,"Category: neutral
+Text: I appreciate your willingness to address our unresolved issues together. Let's set aside time to have a constructive conversation about our concerns. Thank you for initiating this discussion","Category: neutral
+Functional Text: Thank you for being open to discussing our unresolved issues. Let's schedule a time to talk constructively about our concerns. I appreciate you starting this conversation."
+156,Stonewalling,functional_conversation_partner_2,Let's definitely have an open conversation about our communication dynamics. Thank you for being willing to address this.,"Category: neutral
+Text: Let's definitely have an open conversation about our communication dynamics. Thank you for being willing to address this.","Category: neutral
+Functional Text: Let's talk openly about how we communicate. I appreciate your willingness to discuss this."
+157,Stonewalling,functional_conversation_partner_2,I appreciate you bringing this up. Let's definitely discuss how we can ensure that responsibility is properly addressed in our actions and decisions,"Category: neutral
+Text: I appreciate you bringing this up. Let's definitely discuss how we can ensure that responsibility is properly addressed in our actions and decisions","Category: neutral
+Functional Text: Thank you for raising this. Let's talk about how we can make sure we handle responsibility well in what we do and decide."
+158,Stonewalling,functional_conversation_partner_2,"I agree, addressing tension in a calm and logical manner is crucial. Let's definitely discuss what's been on your mind and explore solutions together.","Category: neutral
+Text: I agree, addressing tension in a calm and logical manner is crucial. Let's definitely discuss what's been on your mind and explore solutions together.","Category: neutral
+Functional Text: Let's talk calmly about what's bothering you and work together to find solutions."
+159,Stonewalling,functional_conversation_partner_2,I understand that our different viewpoints can sometimes present challenges in our discussions. It's important for us to find ways to better understand each other's perspectives and approach disagreements constructively.,"Category: neutral
+Text: I understand that our different viewpoints can sometimes present challenges in our discussions. It's important for us to find ways to better understand each other's perspectives and approach disagreements constructively.","Category: neutral
+Functional Text: Let's work on understanding each other's perspectives to handle disagreements positively during our discussions."
+160,Criticism,Unclear,"I appreciate your concern, can't you see I am fine? why are you always trying to start something. But anyway thanks for checking in. ","Category: neutral
+Text: I appreciate your concern, can't you see I am fine? But anyway thanks for checking in.","Category: neutral
+Functional Text: Thanks for checking in, I'm actually doing fine. Your concern means a lot to me."
+161,Criticism,Unclear,"I understand your feelings. Maybe you should take a look at your own actions before pointing fingers at me, but I'm sorry for causing you pain","Category: neutral
+Text: I understand your feelings.
+
+Category: criticism
+Text: Maybe you should take a look at your own actions before pointing fingers at me, but I'm sorry for causing you pain.","Category: neutral
+Functional Text: I get how you feel.
+
+Category: criticism
+Functional Text: Before blaming me, consider your own actions. I apologize for hurting you."
+162,Criticism,Unclear,I understand how important it is for both of us. You're the one who never listens! Let's definitely work on actively listening to each other.,"Category: neutral
+Text: I understand how important it is for both of us.
+
+Category: criticism
+Text: You're the one who never listens!
+
+Category: neutral
+Text: Let's definitely work on actively listening to each other.","Category: neutral
+Functional Text: I acknowledge the significance of this for both of us.
+
+Category: criticism
+Functional Text: It seems like there's a challenge with listening on your end.
+
+Category: neutral
+Functional Text: We should make a conscious effort to listen attentively to each other."
+163,Criticism,Unclear,"I hear you saying that. I don't always treat you like that, you're just exaggerating as usual. Can you provide specific examples so we can work together to improve our interactions?","Category: neutral
+Text: I hear you saying that.
+
+Category: criticism
+Text: I don't always treat you like that, you're just exaggerating as usual.
+
+Category: other
+Text: Can you provide specific examples so we can work together to improve our interactions?","Category: neutral
+Functional Text: I understand your point.
+
+Category: criticism
+Functional Text: Let's discuss specific instances to clarify any misunderstandings.
+
+Category: other
+Functional Text: Could you share some examples so we can collaborate on enhancing how we communicate?"
+164,Criticism,Unclear,"I'm sorry, I just got caught up with work. Oh you think I don't listen or care?. It's not like I do this on purpose.","Category: neutral
+Text: I'm sorry, I just got caught up with work.
+
+Category: contempt
+Text: Oh you think I don't listen or care?
+
+Category: defensiveness
+Text: It's not like I do this on purpose.","Category: neutral
+Functional Text: Apologies, work kept me busy.
+
+Category: contempt
+Functional Text: Do you really believe I don't pay attention or care?
+
+Category: defensiveness
+Functional Text: I don't intentionally do this."
+165,Criticism,Unclear,"I appreciate your patience in dealing with this issue. Well, maybe if you weren't so controlling and nagging, I wouldn't forget things. Let's sit together and come up with plan","Category: neutral
+Text: I appreciate your patience in dealing with this issue.
+
+Category: criticism
+Text: Well, maybe if you weren't so controlling and nagging, I wouldn't forget things.
+
+Category: neutral
+Text: Let's sit together and come up with a plan.","Category: neutral
+Functional Text: Thank you for being patient while we handle this matter.
+
+Category: criticism
+Functional Text: If we could find a way to communicate without feeling controlled or nagged, it might help me remember things better.
+
+Category: neutral
+Functional Text: How about we sit down together and brainstorm a plan?"
+166,Criticism,Unclear,"Thank you for recognizing my afforts, but I disagree that there is a room for improvement","Category: neutral
+Text: Thank you for recognizing my efforts, but I disagree that there is room for improvement.","Category: neutral
+Functional Text: I appreciate your acknowledgment of my efforts, but I have a different perspective on the need for improvement."
+167,Criticism,Unclear,"I appreciate you bringing this up, howere if you were more organized it would not bother you so much. Let's schedule some time to discuss","Category: neutral
+Text: I appreciate you bringing this up, let's schedule some time to discuss.","Category: neutral
+Functional Text: Thank you for raising this, let's plan a meeting to talk about it."
+168,Criticism,Unclear,"I appreciate your observation and willingness to address this, but if you paid more attention to my needs, I would not have to focus so much on myself. Can we find a wya to balance the foucs on both of us more evenly?","Category: neutral
+Text: I appreciate your observation and willingness to address this.
+
+Category: criticism
+Text: If you paid more attention to my needs, I would not have to focus so much on myself.
+
+Category: other
+Text: Can we find a way to balance the focus on both of us more evenly?","Category: neutral
+Functional Text: Thank you for noticing and being open to discussing this.
+
+Category: criticism
+Functional Text: If we could both be more attentive to each other's needs, it would help us focus better.
+
+Category: other
+Functional Text: Let's work together to find a balance in how we support each other."
+169,Criticism,Unclear,"I agree that it's important to address this. Well, maybe if you didn't have such high expectations, things wouldn't always end up ruined. Let's have a conversation to identify areas where we can refine our planning process","Category: neutral
+Text: I agree that it's important to address this.
+
+Category: criticism
+Text: Well, maybe if you didn't have such high expectations, things wouldn't always end up ruined.
+
+Category: neutral
+Text: Let's have a conversation to identify areas where we can refine our planning process.","Category: neutral
+Functional Text: I think we should definitely work on addressing this issue.
+
+Category: criticism
+Functional Text: Lowering expectations might help prevent things from going wrong all the time.
+
+Category: neutral
+Functional Text: We should talk and figure out how to improve our planning methods."
+170,Defensiveness,Unclear,I hear you telling me that.  I didn’t do anything wrong. Why are you blaming me when I did nothing. Can you please clarify this for me so I understand?,"Category: neutral
+Text: I hear you telling me that. 
+
+Category: defensiveness
+Text: I didn’t do anything wrong. Why are you blaming me when I did nothing.
+
+Category: neutral
+Text: Can you please clarify this for me so I understand?","Category: neutral
+Functional Text: I acknowledge what you're saying.
+
+Category: defensiveness
+Functional Text: Let's talk about what happened without assuming blame.
+
+Category: neutral
+Functional Text: Could you explain this to me so I can grasp it better?"
+171,Defensiveness,Unclear,I understand your concern. I always get blamed for everything. Let's shift our focus to resolving the matter directly.,"Category: neutral
+Text: I understand your concern.
+
+Category: criticism
+Text: I always get blamed for everything.
+
+Category: neutral
+Text: Let's shift our focus to resolving the matter directly.","Category: neutral
+Functional Text: I see where you're coming from.
+
+Category: criticism
+Functional Text: It feels like I'm always the one taking the blame.
+
+Category: neutral
+Functional Text: Let's work together to address this issue head-on."
+172,Defensiveness,Unclear,It seems like there might be some confusion in our communication. You're making a big deal out of nothing. Let's take a moment to clarify and ensure we're on the same page,"Category: neutral
+Text: It seems like there might be some confusion in our communication.
+
+Category: criticism
+Text: You're making a big deal out of nothing.
+
+Category: neutral
+Text: Let's take a moment to clarify and ensure we're on the same page.","Category: neutral
+Functional Text: Let's work together to clear up any confusion in our communication.
+
+Category: criticism
+Functional Text: Let's not blow things out of proportion.
+
+Category: neutral
+Functional Text: Let's pause for a moment to make sure we understand each other correctly."
+173,Defensiveness,Unclear,"I see what you're saying, but  I'm not the one with the problem here. Let's take a moment to review the situation objectively","Category: neutral
+Text: I see what you're saying, but
+
+Category: defensiveness
+Text: I'm not the one with the problem here.
+
+Category: neutral
+Text: Let's take a moment to review the situation objectively","Category: neutral
+Functional Text: I understand your perspective, however...
+
+Category: defensiveness
+Functional Text: It's important to address the issue without blaming anyone.
+
+Category: neutral
+Functional Text: Let's pause and look at the situation from a neutral standpoint."
+174,Defensiveness,Unclear,It seems like you're upset because I haven't been calling you when I promised. What about when you forget to call me?,"Category: neutral
+Text: It seems like you're upset because I haven't been calling you when I promised.
+
+Category: criticism
+Text: What about when you forget to call me?","Category: neutral
+Functional Text: I understand you're upset because I haven't been keeping my promise to call you.
+
+Category: criticism
+Functional Text: Have you considered how you feel when I forget to call you as well?"
+175,Defensiveness,Unclear,"Certainly, I appreciate your willingness to clarify.It's not my fault if you can't communicate properly. Could you please clarify your massage, so we can ensure, we are both understanding each other correctly","Category: neutral
+Text: Certainly, I appreciate your willingness to clarify.
+
+Category: criticism
+Text: It's not my fault if you can't communicate properly.
+
+Category: other
+Text: Could you please clarify your message, so we can ensure we are both understanding each other correctly.","Category: neutral
+Functional Text: I appreciate you being open to clarifying things.
+
+Category: criticism
+Functional Text: Let's work on improving our communication together.
+
+Category: other
+Functional Text: Can you please explain your message so we can make sure we're on the same page?"
+176,Defensiveness,Unclear,"Absolutely, I am glad you are opet to discussing this.  Maybe if you took some responsibility for once, things wouldn't always be a mess. I think there might be some aspects we need to address together","Category: neutral
+Text: Absolutely, I am glad you are open to discussing this.
+
+Category: criticism
+Text: Maybe if you took some responsibility for once, things wouldn't always be a mess.
+
+Category: neutral
+Text: I think there might be some aspects we need to address together.","Category: neutral
+Functional Text: I'm really happy that you're willing to talk about this openly.
+
+Category: criticism
+Functional Text: Taking responsibility could help prevent things from getting messy all the time.
+
+Category: neutral
+Functional Text: Let's work together to tackle certain aspects that need attention."
+177,Defensiveness,Unclear,"Let's have an open and honest conversation about what happened, if you actually paid attention once in a while, we wouldn't be in this situation.  I'm confident we can find a solution that benefits both of us","Category: neutral
+Text: Let's have an open and honest conversation about what happened, I'm confident we can find a solution that benefits both of us
+
+Category: criticism
+Text: if you actually paid attention once in a while, we wouldn't be in this situation.","Category: neutral
+Functional Text: Let's talk openly about what happened. I believe we can work together to find a solution that works for both of us.
+
+Category: criticism
+Functional Text: If we pay more attention to details, we can avoid ending up in situations like this."
+178,Defensiveness,Unclear,"It seems like there may be some misinterpretation happening. Maybe if you communicated better, I wouldn't have to ""take it"" any way at all. Let's definitely take time to discuss it further","Category: neutral
+Text: It seems like there may be some misinterpretation happening. Let's definitely take time to discuss it further.
+
+Category: criticism
+Text: Maybe if you communicated better, I wouldn't have to ""take it"" any way at all.","Category: neutral
+Functional Text: Let's talk more about this to clear up any misunderstandings.
+
+Category: criticism
+Functional Text: If we improve our communication, it can prevent misunderstandings and conflicts."
+179,Defensiveness,Unclear,"Thank you for being open to hearing my perspective. if you weren't so stubborn, we wouldn't be having this problem. I see things differently, but I'm open to understanding your perspective","Category: neutral
+Text: Thank you for being open to hearing my perspective.
+
+Category: criticism
+Text: if you weren't so stubborn, we wouldn't be having this problem.
+
+Category: neutral
+Text: I see things differently, but I'm open to understanding your perspective.","Category: neutral
+Functional Text: I appreciate you listening to my point of view.
+
+Category: criticism
+Functional Text: If we both stay open-minded, we can resolve this issue more easily.
+
+Category: neutral
+Functional Text: I have a different view, but I'm willing to try and see things from your side too."
+180,Contempt,Unclear,"I'm feeling frustrated with the current situation.  I don't appreciate your negativity, but I do not want that to get in the way of our ability to communicate and solve this problem","Category: neutral
+Text: I'm feeling frustrated with the current situation. I don't appreciate your negativity, but I do not want that to get in the way of our ability to communicate and solve this problem","Category: neutral
+Functional Text: I'm frustrated with how things are going. Your negativity isn't helping, but let's work together to communicate and solve this issue."
+181,Contempt,Unclear,I feel like you are belittling me right now. It's pointless trying to explain this to you when you clearly don't get it and I am asking you to please stop.,"Category: criticism
+Text: I feel like you are belittling me right now.
+
+Category: contempt
+Text: It's pointless trying to explain this to you when you clearly don't get it.
+
+Category: neutral
+Text: I am asking you to please stop.","Category: criticism
+Functional Text: I sense that you are undermining me at the moment.
+
+Category: contempt
+Functional Text: Explaining this to you seems futile since you're not understanding it.
+
+Category: neutral
+Functional Text: Please, I kindly request you to stop."
+182,Contempt,Unclear,I'm sorry to hear that my actions have caused you disappointment. That is coming from you.  Please explain further so we can address the issue together,"Category: neutral
+Text: I'm sorry to hear that my actions have caused you disappointment.
+
+Category: contempt
+Text: That is coming from you.
+
+Category: neutral
+Text: Please explain further so we can address the issue together.","Category: neutral
+Functional Text: I apologize for causing you disappointment. 
+
+Category: contempt
+Functional Text: Is that your perspective?
+
+Category: neutral
+Functional Text: Can you provide more details so we can work on resolving the problem together?"
+183,Contempt,Unclear,I'm feeling overwhelmed by everything at the moment. You're always dragging me down and making everything harder. Let's  find some solutions,"Category: criticism
+Text: You're always dragging me down and making everything harder.
+
+Category: neutral
+Text: I'm feeling overwhelmed by everything at the moment. Let's find some solutions.","Category: criticism
+Functional Text: Let's discuss how we can work together more effectively to make things easier for both of us.
+
+Category: neutral
+Functional Text: I'm currently feeling overwhelmed. Let's brainstorm and find solutions to improve the situation."
+184,Contempt,Unclear,"Your suggestion makes sense.  Maybe if you listened more, you'd realize I actually do think before speaking. Let's be more mindful of our words. ","Category: neutral
+Text: Your suggestion makes sense. Let's be more mindful of our words.
+
+Category: criticism
+Text: Maybe if you listened more, you'd realize I actually do think before speaking.","Category: neutral
+Functional Text: That's a good suggestion. Let's pay closer attention to how we express ourselves.
+
+Category: criticism
+Functional Text: If you listened more, you might notice that I do consider my words before speaking."
+185,Contempt,Unclear,"Absolutely, I appreciate you bringing this up. Well, maybe if you actually contributed once in a while, we wouldn't have so many problems. I'm confident we can overcome these difficulties.","Category: neutral
+Text: Absolutely, I appreciate you bringing this up.
+
+Category: criticism
+Text: Well, maybe if you actually contributed once in a while, we wouldn't have so many problems.
+
+Category: neutral
+Text: I'm confident we can overcome these difficulties.","Category: neutral
+Functional Text: Thanks for bringing this up; I really appreciate it.
+
+Category: criticism
+Functional Text: If we all contribute more regularly, we can reduce the number of problems we face.
+
+Category: neutral
+Functional Text: I believe we have the ability to overcome these challenges."
+186,Contempt,Unclear,Thank you for acknowledging my feelings. I guess I'll just keep my thoughts to myself since you obviously don't care about what I have to say.  Let's discuss possible solutions,"Category: neutral
+Text: Thank you for acknowledging my feelings.
+
+Category: contempt
+Text: I guess I'll just keep my thoughts to myself since you obviously don't care about what I have to say.
+
+Category: neutral
+Text: Let's discuss possible solutions","Category: neutral
+Functional Text: I appreciate you recognizing how I feel.
+
+Category: contempt
+Functional Text: If you don't value my input, I'll refrain from sharing my thoughts.
+
+Category: neutral
+Functional Text: Let's talk about potential solutions together."
+187,Contempt,Unclear,"I appreciate you bringing this to my attention.  If you communicated better, maybe I wouldn't have to guess what you want all the time. Let's definitely work together to enhance our communication.","Category: neutral
+Text: I appreciate you bringing this to my attention.
+
+Category: criticism
+Text: If you communicated better, maybe I wouldn't have to guess what you want all the time.
+
+Category: neutral
+Text: Let's definitely work together to enhance our communication.","Category: neutral
+Functional Text: Thank you for letting me know about this.
+
+Category: criticism
+Functional Text: Let's try to improve our communication so I can understand your needs more clearly.
+
+Category: neutral
+Functional Text: We should collaborate to make our communication more effective."
+188,Contempt,Unclear,"I agree, it's important for us to find common ground. If you weren't so demanding, I could actually meet your expectations. Let's have open and respectful conversation","Category: neutral
+Text: I agree, it's important for us to find common ground. Let's have open and respectful conversation.
+
+Category: criticism
+Text: If you weren't so demanding, I could actually meet your expectations.","Category: neutral
+Functional Text: Let's work together to find common ground through open and respectful conversations.
+
+Category: criticism
+Functional Text: I could better meet your expectations if we could adjust the level of demands."
+189,Contempt,Unclear,Certainly! It seems like there might be some frustrations we need to address. I have to handle everything while you sit back and complain. Let's find some solution,"Category: neutral
+Text: Certainly! It seems like there might be some frustrations we need to address.
+
+Category: criticism
+Text: I have to handle everything while you sit back and complain.
+
+Category: neutral
+Text: Let's find some solution","Category: neutral
+Functional Text: It looks like there are some frustrations we should work on together.
+
+Category: criticism
+Functional Text: It feels like I'm managing everything while you're just complaining.
+
+Category: neutral
+Functional Text: Let's work together to find a solution."
+190,Stonewalling,Unclear,"I understand, I am tired of dealing with your nonsense. let's figure out how to better manage our conflicts.","Category: neutral
+Text: I understand, I am tired of dealing with your nonsense. let's figure out how to better manage our conflicts.","Category: neutral
+Functional Text: Let's work together to find ways to improve how we handle our disagreements."
+191,Stonewalling,Unclear,Thank you for bringing this to my attention. You always twist my words anyway. Let's explore ways to ensure we're both on the same page.,"Category: neutral
+Text: Thank you for bringing this to my attention.
+
+Category: criticism
+Text: You always twist my words anyway.
+
+Category: neutral
+Text: Let's explore ways to ensure we're both on the same page.","Category: neutral
+Functional Text: I appreciate you letting me know about this.
+
+Category: criticism
+Functional Text: Let's clarify our communication to avoid misunderstandings.
+
+Category: neutral
+Functional Text: Let's discuss how we can align our understanding to avoid confusion."
+192,Stonewalling,Unclear,"I agree, taking some time to reflect individually sounds like a good idea. I'm done with this conversation","Category: neutral
+Text: I agree, taking some time to reflect individually sounds like a good idea.
+
+Category: stonewalling
+Text: I'm done with this conversation","Category: neutral
+Functional Text: Reflecting on our thoughts individually seems like a good plan.
+
+Category: stonewalling
+Functional Text: I need to step back from this conversation for now."
+193,Stonewalling,Unclear,I'm sorry that my tone has been causing frustration. I'm sick of your attitude. Let's work together to find a better way to communicate our needs,"Category: neutral
+Text: I'm sorry that my tone has been causing frustration.
+
+Category: contempt
+Text: I'm sick of your attitude.
+
+Category: neutral
+Text: Let's work together to find a better way to communicate our needs.","Category: neutral
+Functional Text: I apologize for the frustration my tone has caused.
+
+Category: contempt
+Functional Text: Your attitude is really getting on my nerves.
+
+Category: neutral
+Functional Text: Let's collaborate to improve how we express our needs."
+194,Stonewalling,Unclear,Thank you for understanding.  Do whatever you want. I appreciate your willingness to go along with my decision.,"Category: neutral
+Text: Thank you for understanding. I appreciate your willingness to go along with my decision.
+
+Category: other
+Text: Do whatever you want.","Category: neutral
+Functional Text: I'm grateful for your understanding and support in accepting my decision.
+
+Category: other
+Functional Text: Feel free to make your own choice."
+195,Stonewalling,Unclear,Thank you for initiating this discussion. You never want to address our problems.  Let's set aside time to have a constructive conversation about our concerns. ,"Category: neutral
+Text: Thank you for initiating this discussion.
+
+Category: criticism
+Text: You never want to address our problems.
+
+Category: neutral
+Text: Let's set aside time to have a constructive conversation about our concerns.","Category: neutral
+Functional Text: I appreciate you starting this conversation.
+
+Category: criticism
+Functional Text: It would be helpful if we could work together to address our issues.
+
+Category: neutral
+Functional Text: Can we schedule a time to talk openly about our worries and find solutions together?"
+196,Stonewalling,Unclear,Let's definitely have an open conversation about our communication dynamics. I can't deal with your silence anymore. Thank you for being willing to address this.,"Category: neutral
+Text: Let's definitely have an open conversation about our communication dynamics. Thank you for being willing to address this.
+
+Category: stonewalling
+Text: I can't deal with your silence anymore.","Category: neutral
+Functional Text: Let's talk openly about how we communicate. Thanks for being open to discussing this.
+
+Category: stonewalling
+Functional Text: Your silence is making it hard for us to move forward. Let's try to communicate openly."
+197,Stonewalling,Unclear,You're just trying to avoid taking responsibility. Let's definitely discuss how we can ensure that responsibility is properly addressed in our actions and decisions,"Category: defensiveness
+Text: You're just trying to avoid taking responsibility.
+
+Category: neutral
+Text: Let's definitely discuss how we can ensure that responsibility is properly addressed in our actions and decisions.","Category: defensiveness
+Functional Text: Let's talk about how we can make sure we both handle our responsibilities effectively."
+198,Stonewalling,Unclear,"I agree, addressing tension in a calm and logical manner is crucial. You're just being irrational. Let's definitely discuss what's been on your mind and explore solutions together.","Category: neutral
+Text: I agree, addressing tension in a calm and logical manner is crucial.
+
+Category: contempt
+Text: You're just being irrational.
+
+Category: neutral
+Text: Let's definitely discuss what's been on your mind and explore solutions together.","Category: neutral
+Functional Text: It's important to handle tension calmly and logically.
+
+Category: contempt
+Functional Text: You're not thinking clearly.
+
+Category: neutral
+Functional Text: Let's talk about what's bothering you and find solutions together."
+199,Stonewalling,Unclear,"You're so stubborn, it's exhausting.  It's important for us to find ways to better understand each other's perspectives and approach disagreements constructively","Category: contempt
+Text: You're so stubborn, it's exhausting.
+
+Category: neutral
+Text: It's important for us to find ways to better understand each other's perspectives and approach disagreements constructively.","Category: contempt
+Functional Text: Let's work on being more open-minded and flexible in our discussions to avoid feeling drained by disagreements.
+
+Category: neutral
+Functional Text: It's crucial for us to actively listen and respect each other's viewpoints to handle disagreements positively."
